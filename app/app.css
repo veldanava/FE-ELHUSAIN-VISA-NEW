@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "./public/*.{html,js}";
+@plugin "daisyui";
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
