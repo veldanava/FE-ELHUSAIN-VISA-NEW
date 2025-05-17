@@ -4,11 +4,11 @@ export default function Catalogue(){
       <div className="container mx-auto px-4">
       <div className="flex justify-between items-start mb-8">
          <div>
-          <h1 className="text-[20px] md:ml-10">Paket yang tersedia</h1>
-          <h1 className="md:ml-10">Allah tidak memanggil orang - orang yang mampu tapi Allah memampukan orang - orang yang terpanggil untuk berkunjung ke Baitullah</h1>
+          <h1 className="text-[20px] md:ml-20">Paket yang tersedia</h1>
+          <h1 className="md:ml-20">Allah tidak memanggil orang - orang yang mampu tapi Allah memampukan orang - orang yang terpanggil untuk berkunjung ke Baitullah</h1>
          </div>
          <div>
-          <button className="btn btn-success text-white hidden flex-none lg:block md:mr-10">Lihat Semua</button>
+          <button className="btn btn-success text-white hidden flex-none lg:block md:mr-20">Lihat Semua</button>
          </div>
         </div>
         <div className="flex justify-center items-center flex-col gap-3 p-4 lg:flex-row lg:items-stretch lg:flex-wrap">

@@ -22,7 +22,7 @@ export default function Navbar(){
             </svg>
           </label>
         </div>
-        <div className="mx-2 flex-1 px-2 md:ml-20">Logo Elhusain</div>
+        <div className="mx-2 flex-1 px-2 md:ml-25">Logo Elhusain</div>
         <div className="hidden flex-none lg:block">
           <ul className="menu menu-horizontal">
             {/* Navbar menu content here */}
@@ -32,7 +32,7 @@ export default function Navbar(){
             <li><a>Galeri & Artikel</a></li>
             <li><a>Visa</a></li>
           </ul>
-        <button className="btn btn-success md:mr-20 text-white">Hubungi Kami</button>
+        <button className="btn btn-success md:mr-25 text-white">Hubungi Kami</button>
         </div>
       </div>
     </div>

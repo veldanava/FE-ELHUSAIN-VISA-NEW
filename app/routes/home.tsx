@@ -6,6 +6,8 @@ import Catalogue from "../components/catalogue"
 import Our from "../components/Our"
 import Program from "../components/Program"
 import Footer from "../components/Footer"
+import Testimonials from "../components/testimonials"
+import Photo from "../components/photo"
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -17,12 +19,14 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Hero />
       <Carou />
       <Catalogue />
       <Our />
       <Program />
+      <Testimonials />
+      <Photo />
       <Footer />
     </div>
   );
