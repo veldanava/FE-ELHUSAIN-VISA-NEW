@@ -7,19 +7,27 @@
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "build:css": "postcss app.css -o public/output.css"
+    "build:css": "postcss app.css -o public/output.css",
+    "postinstall": "flowbite-react patch"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@react-router/node": "^7.5.3",
     "@react-router/serve": "^7.5.3",
     "@tailwindcss/postcss": "^4.1.7",
     "daisyui": "^5.0.35",
+    "flowbit": "^0.1.0",
+    "flowbite": "^3.1.2",
+    "flowbite-react": "^0.11.7",
     "isbot": "^5.1.27",
     "postcss": "^8.5.3",
     "postcss-cli": "^11.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.5.3"
+    "react-router": "^7.5.3",
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
     "@react-router/dev": "^7.5.3",

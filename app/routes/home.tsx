@@ -1,8 +1,11 @@
 import type { Route } from "./+types/home";
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
-import Carousel from "../components/Carousel"
+import Carou from "../components/Carousel"
 import Catalogue from "../components/catalogue"
+import Our from "../components/Our"
+import Program from "../components/Program"
+import Footer from "../components/Footer"
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -16,8 +19,11 @@ export default function Home() {
     <div>
       <Navbar/>
       <Hero />
-      <Carousel />
+      <Carou />
       <Catalogue />
+      <Our />
+      <Program />
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 export default function Navbar(){
   return(
-    <div className="drawer fixed">
+    <div className="drawer">
     <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
     <div className="drawer-content flex flex-col">
       {/* Navbar */}
@@ -22,14 +22,17 @@ export default function Navbar(){
             </svg>
           </label>
         </div>
-        <div className="mx-2 flex-1 px-2 ml-20">Logo Elhusain</div>
+        <div className="mx-2 flex-1 px-2 md:ml-20">Logo Elhusain</div>
         <div className="hidden flex-none lg:block">
           <ul className="menu menu-horizontal">
             {/* Navbar menu content here */}
             <li><a>Beranda</a></li>
             <li><a>Tentang El.Husain Travel</a></li>
+            <li><a>Paket El.Husain</a></li>
+            <li><a>Galeri & Artikel</a></li>
+            <li><a>Visa</a></li>
           </ul>
-        <button className="btn btn-success mr-20">Hubungi Kami</button>
+        <button className="btn btn-success md:mr-20 text-white">Hubungi Kami</button>
         </div>
       </div>
     </div>
@@ -40,6 +43,9 @@ export default function Navbar(){
         <div className="px-2 py-5">Logo Elhusain</div>
         <li><a>Beranda</a></li>
         <li><a>Tentang El.Husain Travel</a></li>
+        <li><a>Paket El.Husain</a></li>
+        <li><a>Galeri & Artikel</a></li>
+        <li><a>Visa</a></li>
       </ul>
     </div>
   </div>
