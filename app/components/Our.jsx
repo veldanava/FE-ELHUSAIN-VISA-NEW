@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faNoteSticky } from '@fortawesome/free-solid-svg-icons'
 export default function Our(){
   return(
-    <div className="w-full py-8">
+    <div className="w-full bg-base-200 py-8">
     <div className="container mx-auto px-4">
     <div className="flex justify-between items-start mb-8">
        <div>

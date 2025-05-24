@@ -1,6 +1,9 @@
+import React from 'react';
+import "../carousel.css"
+
 export default function Photo(){
   return(
-    <div className="w-full py-8">
+    <div className="w-full bg-base-300 py-8">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-start mb-8">
           <div>
@@ -9,38 +12,18 @@ export default function Photo(){
         <div>
           <button className="btn btn-success text-white hidden flex-none lg:block md:mr-20">Lihat Semua</button>
         </div>
+        </div> 
+        <div className='relative'>
+          <swiper-container class="mySwiper" slides-per-view="auto" autoplay="true" loop="true"
+            centered-slides="true">
+            <swiper-slide><img className="h-75 w-85" src="https://i.pinimg.com/736x/ec/90/06/ec9006a3c56757ade17e14ec4eed68a5.jpg" alt="" /></swiper-slide>
+            <swiper-slide><img className="h-75 w-85" src="https://i.pinimg.com/736x/ec/90/06/ec9006a3c56757ade17e14ec4eed68a5.jpg" alt="" /></swiper-slide>
+            <swiper-slide><img className="h-75 w-85" src="https://i.pinimg.com/736x/ec/90/06/ec9006a3c56757ade17e14ec4eed68a5.jpg" alt="" /></swiper-slide>
+            <swiper-slide><img className="h-75 w-85" src="https://i.pinimg.com/736x/ec/90/06/ec9006a3c56757ade17e14ec4eed68a5.jpg" alt="" /></swiper-slide>
+            <swiper-slide><img className="h-75 w-85" src="https://i.pinimg.com/736x/ec/90/06/ec9006a3c56757ade17e14ec4eed68a5.jpg" alt="" /></swiper-slide>
+            <swiper-slide><img className="h-75 w-85" src="https://i.pinimg.com/736x/ec/90/06/ec9006a3c56757ade17e14ec4eed68a5.jpg" alt="" /></swiper-slide>
+          </swiper-container>
         </div>
-      <div className="carousel carousel-center rounded-box">
-  <div className="carousel-item">
-    <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-      alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-      alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-      alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-      alt="Pizza" />
-  </div>
-</div>
       </div>
     </div>
   )

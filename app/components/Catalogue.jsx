@@ -1,6 +1,6 @@
 export default function Catalogue(){
   return(
-    <div className="w-full  py-8">
+    <div className="w-full  py-8 bg-base-200">
       <div className="container mx-auto px-4">
       <div className="flex justify-between items-start mb-8">
          <div>
