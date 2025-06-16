@@ -1,11 +1,10 @@
-export default function Catalogue(){
+export default function Article(){
   return(
     <div className="w-full  py-8 bg-white">
       <div className="container mx-auto px-4">
       <div className="flex justify-between items-start mb-8">
          <div>
-          <h1 className="text-[20px] font-bold md:ml-20">Paket yang tersedia</h1>
-          <h1 className="md:ml-20">Allah tidak memanggil orang - orang yang mampu tapi Allah memampukan orang - orang yang terpanggil untuk berkunjung ke Baitullah</h1>
+          <h1 className="text-[20px] md:ml-20">Artikel</h1>
          </div>
          <div>
           <button className="btn btn-warning text-white hidden flex-none lg:block md:mr-20">Lihat Semua</button>
@@ -46,7 +45,7 @@ export default function Catalogue(){
       </li>
     </ul>
     <div className="mt-6">
-      <button className="btn btn-warning btn-block">Subscribe</button>
+      <button className="btn btn-primary btn-block">Subscribe</button>
     </div>
   </div>
           </div>
@@ -84,7 +83,7 @@ export default function Catalogue(){
       </li>
     </ul>
     <div className="mt-6">
-      <button className="btn btn-warning btn-block">Subscribe</button>
+      <button className="btn btn-primary btn-block">Subscribe</button>
     </div>
   </div>
           </div>
@@ -122,7 +121,7 @@ export default function Catalogue(){
       </li>
     </ul>
     <div className="mt-6">
-      <button className="btn btn-warning btn-block">Subscribe</button>
+      <button className="btn btn-primary btn-block">Subscribe</button>
     </div>
   </div>
           </div>

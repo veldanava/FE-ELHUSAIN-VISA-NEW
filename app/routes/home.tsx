@@ -8,6 +8,8 @@ import Program from "../components/Program"
 import Footer from "../components/Footer"
 import Testimonials from "../components/testimonials"
 import Photo from "../components/photo"
+import Article from "../components/Article"
+import Float from "../components/Floating"
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -19,6 +21,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <div>
+      <Float />
       <Navbar />
       <Hero />
       <Carou />
@@ -27,6 +30,7 @@ export default function Home() {
       <Program />
       <Testimonials />
       <Photo />
+      <Article />
       <Footer />
     </div>
   );

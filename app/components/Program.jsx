@@ -1,44 +1,16 @@
+import asset from "../assets/alat.png"
+
 export default function Program(){
   return(
-    <div className="hero bg-base-200">
+    <div className="hero bg-[url(https://i.pinimg.com/736x/f5/d8/c8/f5d8c84b021abfb313204f9e4c3f447c.jpg)]">
   <div className="hero-content flex-col lg:flex-row">
-  <div className="card w-96 bg-base-100 shadow-sm">
-  <div className="card-body">
-    <span className="badge badge-xs badge-warning">Most Popular</span>
-    <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">Premium</h2>
-      <span className="text-xl">$29/mo</span>
-    </div>
-    <ul className="mt-6 flex flex-col gap-2 text-xs">
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>High-resolution image generation</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Customizable style templates</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>Batch processing capabilities</span>
-      </li>
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span>AI-driven image enhancements</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Seamless cloud integration</span>
-      </li>
-      <li className="opacity-50">
-        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-        <span className="line-through">Real-time collaboration tools</span>
-      </li>
-    </ul>
-    <div className="mt-6">
-      <button className="btn btn-primary btn-block">Subscribe</button>
-    </div>
-  </div>
+  <div className="w-100 shadow-sm">
+  <figure>
+    <img
+      src={asset}
+      alt="Shoes" />
+  </figure>
+  
 </div>
     <div className="h-[155px]" >
       <h1 className="text-5xl font-bold">Lorem Ipsum</h1>

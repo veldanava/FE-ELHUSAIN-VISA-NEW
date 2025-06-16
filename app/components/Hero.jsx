@@ -1,14 +1,12 @@
 export default function Hero(){
   return(
-    <div className="hero backdrop-brightness-50 bg-[url(https://i.pinimg.com/736x/e2/41/1f/e2411f419d09034c3752bb8af0e48916.jpg)] min-h-screen">
+    <div className="hero backdrop-brightness-50 bg-[url(https://i.pinimg.com/736x/f5/d8/c8/f5d8c84b021abfb313204f9e4c3f447c.jpg)] h-[330px]">
     <div className="hero-content text-center">
       <div className="max-w-md">
         <h1 className="text-5xl text-white font-bold">El.Husain Travel</h1>
-        <p className="py-6 text-white">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-          quasi. In deleniti eaque aut repudiandae et a id nisi.
+        <p className="py-6 text-2xl text-white">
+          Bismillah Khidmat Haramain
         </p>
-        <button className="btn btn-primary">Get Started</button>
       </div>
     </div>
   </div>
