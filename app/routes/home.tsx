@@ -2,7 +2,7 @@ import type { Route } from "./+types/home";
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import Carou from "../components/Carousel"
-import Catalogue from "../components/catalogue"
+import Catalogue from "app/components/catalogue"
 import Our from "../components/Our"
 import Program from "../components/Program"
 import Footer from "../components/Footer"
