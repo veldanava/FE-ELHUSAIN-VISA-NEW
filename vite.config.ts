@@ -6,4 +6,10 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths(), flowbiteReact()],
+    resolve: {
+    alias: {
+      "@/": resolve(__dirname, "./src"),
+      "@shared/": resolve(__dirname, "./shared"),
+    }
+  },
 });
