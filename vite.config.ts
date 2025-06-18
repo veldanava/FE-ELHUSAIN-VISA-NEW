@@ -6,12 +6,16 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import flowbiteReact from "flowbite-react/plugin/vite";
 
+import path from 'node:path'
+import url from 'node:url'
+
+const _dirname = path.dirname(url.fileURLToPath(import.meta.url))
+
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths(), flowbiteReact()],
-    resolve: {
+   resolve: {
     alias: {
-      "@/": resolve(__dirname, "./src"),
-      "@shared/": resolve(__dirname, "./shared"),
+      "@shared": resolve(_dirname, "./shared"),
     }
   },
 });
