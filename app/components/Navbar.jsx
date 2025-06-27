@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo-elhusain.png"
 export default function Navbar(){
   return(
@@ -28,6 +29,7 @@ export default function Navbar(){
           <ul className="menu menu-horizontal">
             {/* Navbar menu content here */}
             <li><a>Beranda</a></li>
+
             <li><a>Tentang El.Husain Travel</a></li>
             <li><a>Paket El.Husain</a></li>
             <li><a>Galeri & Artikel</a></li>
@@ -41,7 +43,7 @@ export default function Navbar(){
       <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
       <ul className="menu bg-white min-h-full w-80 p-4">
         {/* Sidebar content here */}
-        <div className="px-2 py-5">Logo Elhusain</div>
+        <img height={'65px'} width={'100px'} src={logo} alt="" />
         <li><a>Beranda</a></li>
         <li><a>Tentang El.Husain Travel</a></li>
         <li><a>Paket El.Husain</a></li>

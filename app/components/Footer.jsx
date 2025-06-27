@@ -10,24 +10,24 @@ export default function Footer(){
     </p>
   </aside>
   <nav>
-    <h6 className="footer-title">Services</h6>
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+    <h6 className="footer-title">Navigasi</h6>
+    <a className="link link-hover">Beranda</a>
+    <a className="link link-hover">Tentang El.Husain Travel</a>
+    <a className="link link-hover">Paket El.Husain</a>
+    <a className="link link-hover">Galeri & Artikel</a>
+    <a className="link link-hover">Visa</a>
   </nav>
   <nav>
-    <h6 className="footer-title">Company</h6>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <h6 className="footer-title">Kantor El.Husain Travel</h6>
+    <a className="link link-hover w-55">Banyumas, Desa/Kelurahan Karangdadap, Kec, Kalibagor, Kab, Banyumas, Provinsi Jawa Tengah</a>
   </nav>
   <nav>
-    <h6 className="footer-title">Legal</h6>
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
+    <h6 className="footer-title">Kontak Info</h6>
+    <a className="link link-hover">0808080</a>
+    <a className="link link-hover">loremipsum@gmail.com</a>
+    <h6 className="footer-title">Pembayaran</h6>
+    <h6 className="footer-title">Rekening Bank Lorem:</h6>
+    <a className="link-hover">a.n El.Husain Travel</a>
   </nav>
 </footer>
   )

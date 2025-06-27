@@ -1,4 +1,5 @@
 import type { Route } from "./+types/home";
+
 import Navbar from "app/components/Navbar"
 import Hero from "app/components/Hero"
 import Carou from "app/components/Carousel"
