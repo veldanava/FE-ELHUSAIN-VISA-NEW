@@ -26,30 +26,29 @@ export default function Navbar(){
         </div>
         <div className="mx-2 flex-1 px-2 md:ml-25"><img height={'65px'} width={'100px'} src={logo} alt="" /></div>
         <div className="hidden flex-none lg:block">
-          <ul className="menu menu-horizontal">
+          <nav className="menu menu-horizontal">
             {/* Navbar menu content here */}
-            <li><a>Beranda</a></li>
-
-            <li><a>Tentang El.Husain Travel</a></li>
-            <li><a>Paket El.Husain</a></li>
-            <li><a>Galeri & Artikel</a></li>
-            <li><a>Visa</a></li>
-          </ul>
+            <li><Link to="/">Beranda</Link></li>
+            <li><Link to="/about">Tentang Elhusain.Travel</Link></li>
+            <li><Link to="/paket">Paket Elhusain</Link></li>
+            <li><Link to="/detail">Galeri & Artikel</Link></li>
+            <li><Link to="/visa">Visa</Link></li>
+          </nav>
         <button className="btn btn-warning md:mr-25 text-white">Hubungi Kami</button>
         </div>
       </div>
     </div>
     <div className="drawer-side">
       <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-      <ul className="menu bg-white min-h-full w-80 p-4">
+          <nav className="menu  bg-white min-h-full w-80 p-4">
         {/* Sidebar content here */}
         <img height={'65px'} width={'100px'} src={logo} alt="" />
-        <li><a>Beranda</a></li>
-        <li><a>Tentang El.Husain Travel</a></li>
-        <li><a>Paket El.Husain</a></li>
-        <li><a>Galeri & Artikel</a></li>
-        <li><a>Visa</a></li>
-      </ul>
+            <li><Link to="/">Beranda</Link></li>
+            <li><Link to="/about">Tentang Elhusain.Travel</Link></li>
+            <li><Link to="/paket">Paket Elhusain</Link></li>
+            <li><Link to="/detail">Galeri & Artikel</Link></li>
+            <li><Link to="/visa">Visa</Link></li>
+          </nav>
     </div>
   </div>
   )

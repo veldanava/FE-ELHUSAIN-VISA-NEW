@@ -12,10 +12,11 @@ import Photo from "app/components/Photo"
 import Article from "app/components/Article"
 import Float from "app/components/Floating"
 
+
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Beranda - Elhusain Travel" },
+    { name: "description", content: "Bismillah Khidmat Haramain" },
   ];
 }
 
