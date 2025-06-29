@@ -17,7 +17,7 @@ export default function About() {
   return (
     <div>
       <Float />
-      <Navbar />
+      <Navbar/>
       <Hero />
       <Abouts />
       <Footer />

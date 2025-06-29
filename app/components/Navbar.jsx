@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import logo from "../assets/logo-elhusain.png"
+
 export default function Navbar(){
   return(
     <div className="drawer">

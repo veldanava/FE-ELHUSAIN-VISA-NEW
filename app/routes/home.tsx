@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       <Float />
-      <Navbar />
+      <Navbar/>
       <Hero />
       <Carou />
       <Catalogue />
