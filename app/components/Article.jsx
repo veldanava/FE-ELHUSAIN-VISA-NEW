@@ -4,7 +4,7 @@ export default function Article(){
       <div className="container mx-auto px-4">
       <div className="flex justify-between items-start mb-8">
          <div>
-          <h1 className="text-[20px] md:ml-20">Artikel</h1>
+          <h1 className="text-[20px] font-bold md:ml-20">Artikel</h1>
          </div>
          <div>
           <button className="btn btn-warning text-white hidden flex-none lg:block md:mr-20">Lihat Semua</button>
@@ -48,6 +48,8 @@ export default function Article(){
       <button className="btn btn-primary btn-block">Subscribe</button>
     </div>
   </div>
+
+  
           </div>
           <div className="card w-96  bg-base-100 shadow-sm">
   <div className="card-body">

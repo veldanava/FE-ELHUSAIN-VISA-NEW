@@ -1,26 +1,33 @@
 import asset from "../assets/alat.png"
+import Logo from "../assets/logo-elhusain.png"
 
 export default function Program(){
-  return(
-    <div className="hero bg-[url(https://i.pinimg.com/736x/f5/d8/c8/f5d8c84b021abfb313204f9e4c3f447c.jpg)]">
-  <div className="hero-content flex-col lg:flex-row">
-  <div className="w-100 shadow-sm">
-  <figure>
-    <img
-      src={asset}
-      alt="Shoes" />
-  </figure>
-  
-</div>
-    <div className="h-[155px]" >
-      <h1 className="text-5xl font-bold">Lorem Ipsum</h1>
-      <p className="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
-      </p>
-      <button className="btn btn-primary">Get Started</button>
+return(
+  <div className="hero bg-[url(app/assets/hero.png)]">
+    <div className="hero-content flex-col lg:flex-row">
+      <div className="w-100 shadow-sm">
+        <figure>
+          <img
+            src={asset}
+            alt="Shoes" />
+        </figure>
+      </div>
+      <div className="h-[530px]" >
+        <img src={Logo} alt="" width={'195px'} height={'90px'}/>
+          <h1 className="font-bold text-[20px]">Kami Menjual dan Menyediakan Set Peralatan Haji & Umroh:</h1>
+            <ul className="steps steps-vertical">
+              <li className="step step-warning">Koper Bagasi & Koper Kabin</li>
+              <li className="step step-warning">Tas Kabin, Tas Paspor, Tas Bandal</li>
+              <li className="step step-warning">Godybag</li>
+              <li className="step step-warning">Kain Ihram</li>
+              <li className="step step-warning">Buku Panduan Umroh</li>
+              <li className="step step-warning">Syal</li>
+              <li className="step step-warning">Tali IDCard</li>
+              <li className="step step-warning">Bantal Leher</li>
+              <li className="step step-warning">Sabuk Ihram</li>
+            </ul>
+      </div>
     </div>
   </div>
-</div>
   )
 }

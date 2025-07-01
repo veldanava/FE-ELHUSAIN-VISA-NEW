@@ -1,5 +1,5 @@
 import logo from "../assets/logo-elhusain.png"
-
+import {Link} from "react-router"
 export default function Footer(){
   return(
     <footer className="footer md:pl-25 md:pr-25 bg-amber-800 sm:footer-horizontal text-white  text-base-content p-10">
@@ -11,23 +11,24 @@ export default function Footer(){
   </aside>
   <nav>
     <h6 className="footer-title">Navigasi</h6>
-    <a className="link link-hover">Beranda</a>
-    <a className="link link-hover">Tentang El.Husain Travel</a>
-    <a className="link link-hover">Paket El.Husain</a>
-    <a className="link link-hover">Galeri & Artikel</a>
-    <a className="link link-hover">Visa</a>
+      <ul>
+        <li className="pb-2"><Link to="/">Beranda</Link></li>
+        <li className="pb-2"><Link to="/about">Tentang Elhusain.Travel</Link></li>
+        <li className="pb-2"><Link to="/paket">Paket Elhusain</Link></li>
+        <li className="pb-2"><Link to="/detail">Galeri & Artikel</Link></li>
+        <li className="pb-2"><Link to="/visa">Visa</Link></li>
+      </ul>
   </nav>
   <nav>
     <h6 className="footer-title">Kantor El.Husain Travel</h6>
-    <a className="link link-hover w-55">Banyumas, Desa/Kelurahan Karangdadap, Kec, Kalibagor, Kab, Banyumas, Provinsi Jawa Tengah</a>
+    <a className="text-white w-55">Banyumas, Desa/Kelurahan Karangdadap, Kec, Kalibagor, Kab, Banyumas, Provinsi Jawa Tengah</a>
   </nav>
   <nav>
     <h6 className="footer-title">Kontak Info</h6>
-    <a className="link link-hover">0808080</a>
-    <a className="link link-hover">loremipsum@gmail.com</a>
-    <h6 className="footer-title">Pembayaran</h6>
+    <a className="text-white">0808080</a>
+    <a className="text-white">loremipsum@gmail.com</a>
     <h6 className="footer-title">Rekening Bank Lorem:</h6>
-    <a className="link-hover">a.n El.Husain Travel</a>
+    <a className="text-white">a.n El.Husain Travel</a>
   </nav>
 </footer>
   )
